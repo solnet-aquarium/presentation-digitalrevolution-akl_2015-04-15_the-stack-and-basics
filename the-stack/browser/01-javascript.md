@@ -1,4 +1,4 @@
-# JavaSscript
+# JavaScript
 
 JavaScript is the substrate upon which most of what we talk about here is built.
 
@@ -10,3 +10,12 @@ In general terms: JavaScript = JS = ES = ECMA = ECMAScript
 
  - The current minimum you should code for is ECMA5.
   - Technically this excludes IE8, but polyfills
+  - This includes NodeJS
+
+## Change is coming
+
+ECMAScript 6 is basically out. You can use it in Chrome if you start it by going to `chrome://flags/#enable-javascript-harmony` and enabling the flag, restarting chrome.
+
+You can use it in anger by compiling it down to ES5 with [BabelJS](https://babeljs.io/). 
+
+With. All. Features.
