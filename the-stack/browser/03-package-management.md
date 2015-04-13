@@ -18,9 +18,6 @@ There is an amazing amount of quality free code out there. You should use it.
 There are quite a few to choose from now. Aren't you lucky.
 
  - **bower**
- - component
- - jam
- - volo
  - *npm with browserify*
  - *jspm*
 
