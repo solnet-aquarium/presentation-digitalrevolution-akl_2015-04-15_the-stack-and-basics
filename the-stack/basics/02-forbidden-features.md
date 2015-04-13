@@ -4,7 +4,7 @@ Part of the difficulty of mastering JS is knowing when to just say NO.
 
 Here is a list of things that JS will tempt you with. Never give in.
 
-## `==` vs `===`
+## `==`
 
 Never use `==`. If you have to / want to be sure you know what you're doing:
 
@@ -23,6 +23,27 @@ false == null      // false
 null == undefined  // true
 
 ' \t\r\n ' == 0    // true
+```
+
+`==` means "is this thing like this other thing". 
+This is nonsense. "like" has no place in programming and you should find using it alarming. 
+
+Instead use `===` the "equivalence" operator. It means what you think you mean. 
+It means "is this thing the same type as the other thing, and does it have the same value as the other thing"
+
+```JS
+'' === '0'          // false
+0 === ''            // false
+0 === '0'           // false
+
+false === 'false'   // false
+false === '0'       // false
+
+false === undefined // false
+false === null      // false
+null === undefined  // false
+
+' \t\r\n ' === 0    // false
 ```
 
 #### References:
