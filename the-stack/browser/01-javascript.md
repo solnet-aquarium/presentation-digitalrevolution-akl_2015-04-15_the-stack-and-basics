@@ -1,3 +1,7 @@
+# Browser
+
+You're writing a web-app or spcing up a static HTML page
+
 # JavaScript
 
 JavaScript is the substrate upon which most of what we talk about here is built.
