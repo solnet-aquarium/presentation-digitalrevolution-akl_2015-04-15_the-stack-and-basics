@@ -1,5 +1,7 @@
 # Debugging
 
+Write unit tests. If you find a "weird bug" try to write a unit test for it before "diving into code".
+
 Unless your bug is apparent only in a particular browser, use Chrome.
 
 Use Chrome.
