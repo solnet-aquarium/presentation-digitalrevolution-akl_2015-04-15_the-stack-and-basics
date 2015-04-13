@@ -5,6 +5,7 @@ Write unit tests. Unit testing is very easy in node. Mostly, if your test is har
 You can get similar debug tools as those available in the browser by using [node-inspector](https://github.com/node-inspector/node-inspector)
 
 ```BASH
+npm install -g node-inspector
 git clone https://github.com/btford/angular-express-blog.git
 cd angular-express-blog
 npm install
