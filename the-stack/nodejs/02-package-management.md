@@ -4,6 +4,8 @@
 
 Like bower, provides a massive array of modules ready to use. 
 
+Should come with nodejs - if you've got `node`, you should also have `npm`.
+
 Very simple to setup, use a package.json file like:
 
 ```JSON
