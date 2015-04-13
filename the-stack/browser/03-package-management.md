@@ -42,6 +42,7 @@ You've probably heard of it.
  - Can use local filesystem
  - Can be used alongside npm
  - Very easy to find, use and create bower libraries
+ - Must manually include bower libraries in your projects - no automatic module loading like npm + browserify or jspm
 
 Reads from a `bower.json` file, e.g.
 
