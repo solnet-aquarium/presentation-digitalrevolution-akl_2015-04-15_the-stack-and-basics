@@ -21,8 +21,54 @@ There are quite a few to choose from now. Aren't you lucky.
  - component
  - jam
  - volo
- - **npm with browserify**
- - **jspm**
+ - *npm with browserify*
+ - *jspm*
 
 From [Frontend packagers](https://github.com/wilmoore/frontend-packagers).
 
+### Bower 
+
+You've probably heard of it.
+
+ - Installable via `npm install -g bower`
+ - Used with `bower install`
+
+#### Main Points
+
+ - Front end only
+ - Handles CSS, HTML and JS
+ - Massive number of available libraries
+ - Can use raw git repositories
+ - Can use local filesystem
+ - Can be used alongside npm
+ - Very easy to find, use and create bower libraries
+
+Reads from a `bower.json` file, e.g.
+
+```JSON
+{
+  "name": "sn-capitalise",
+  "main": "src/sn-capitalise.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/solnetdigital/sn-capitalise",
+  "authors": [
+    "michael.robinson@solnet.co.nz"
+  ],
+  "description": "Angular JS filter for word capitalisation",
+  "license": "MIT",
+  "devDependencies": {
+    "angular": "~1.3.4",
+    "angular-mocks": "*"
+  }
+}
+```
+
+### NPM + Browserify
+
+Allows use of npm (node.js) modules in the browser.
+
+Might cover this in a later presentation.
+
+### JSPM
+
+Apparently "THE" JS 6 package manager
