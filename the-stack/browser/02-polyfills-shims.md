@@ -4,6 +4,7 @@ Will save your life.
 
  - Code that implements native features of later versions of JS in pure JS, allowing you to code as if they exist even in older browsers
  - [What is a PolyFill](https://remysharp.com/2010/10/08/what-is-a-polyfill)
+ - Allows one to use current best practice
  
 ```JS
 if(typeof Array.prototype.filter !== "function") {
