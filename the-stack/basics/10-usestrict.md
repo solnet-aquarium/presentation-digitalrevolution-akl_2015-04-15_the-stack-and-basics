@@ -29,4 +29,6 @@ Great list over at [Strict Mode (JavaScript)](https://msdn.microsoft.com/en-us/l
 
 ## Caution!
 
-**Do not apply strict mode to existing code unless you are absolutely certain the code confirms properly.
+**Do not apply strict mode to existing code unless you are absolutely certain the code confirms properly.**
+
+
