@@ -1,12 +1,10 @@
-# Forbidden Features
+# Forbidden Features `==`
 
 Part of the difficulty of mastering JS is knowing when to just say NO.
 
-Here is a list of things that JS will tempt you with. Never give in.
+Never use `==`. 
 
-## `==`
-
-Never use `==`. If you have to / want to be sure you know what you're doing:
+If you have to / want to be sure you know what you're doing:
 
 The following table is not a joke
 
