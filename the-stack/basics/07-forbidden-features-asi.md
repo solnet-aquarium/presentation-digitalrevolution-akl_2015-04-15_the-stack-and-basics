@@ -6,7 +6,7 @@ A lot of people who use JS seem to think that semi colons are optional.  They ar
 
 There are a set of rules that govern when the JS interpreter will insert a semi colon. You will not be able to learn these better than the interpreter, *[although you should definitely try](http://stackoverflow.com/a/2846298/187954)*.
 
-Example of how this can cause code to behave unexpectedly:
+### Example of how this can cause code to behave unexpectedly:
 
 ```JS
 // This returns undefined
@@ -16,7 +16,7 @@ return
 };
 ```
 
-File minification & concatenation example:
+### File minification & concatenation example:
 
 ```JS
 // File 1
@@ -41,6 +41,10 @@ This works great when the files are served separately
 ... wtf?
 
 The lack of a semicolon at the end of the first file causes the two files to be concatentated together such that JS thinks the first function's returned value should be executed as a function.
+
+**Congratulations, you broke production!**
+
+This type of issue *only shows up when the files are concatenated together*.
 
  - Our first function returns nothing, `undefined`
  - `undefined` is not a function
