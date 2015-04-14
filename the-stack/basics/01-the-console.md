@@ -4,6 +4,21 @@ Doesn't exist in IE unless "F12 Developer tools" is open - therefore don't commi
 
 Should ALWAYS BE OPEN! Seriously I can't stress this enough. Everytime I see a developer working with the console closed I die a little inside.
 
+## Helpful output
+
+The chrome console will output the type for a complex variable. It even allows you to inspect the prototype chain (inheritance chain)
+
+```JS
+function Person(firstName, lastName) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+};
+Person.prototype.getFullName = function() {
+  return this.firstName + ' ' + this.lastName;
+};
+console.log(new Person('Father', 'Christmas'));
+```
+
 ## Don't limit yourself
 
 There is more than just `console.log`.
