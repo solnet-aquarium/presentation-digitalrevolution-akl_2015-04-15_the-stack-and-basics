@@ -22,3 +22,11 @@ A common usage that is dangerous:
 ```
 
 What will happen when the two files are concatenated together?
+
+## What `use strict` does
+
+Great list over at [Strict Mode (JavaScript)](https://msdn.microsoft.com/en-us/library/ie/br230269(v=vs.94).aspx)
+
+## Caution!
+
+**Do not apply strict mode to existing code unless you are absolutely certain the code confirms properly.
