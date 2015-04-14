@@ -26,7 +26,7 @@ null == undefined  // true
 `==` means "is this thing like this other thing". 
 This is nonsense. "like" has no place in programming and you should find using it alarming. 
 
-Instead use `===` the "equivalence" operator. It means what you think you mean. 
+Instead use `===` (and `!==`) the "equivalence" operator. It means what you think you mean. 
 It means "is this thing the same type as the other thing, and does it have the same value as the other thing"
 
 ```JS
