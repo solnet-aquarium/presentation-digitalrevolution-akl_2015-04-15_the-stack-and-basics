@@ -1,6 +1,6 @@
 # Forbidden Features - block-less-statements
 
-``JS
+```JS
 if (ok)
     t = true;
 ```
